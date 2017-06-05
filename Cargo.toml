@@ -1,0 +1,11 @@
+[package]
+name = "literal_length"
+version = "0.1.0"
+authors = ["Christopher Breeden <github@u.breeden.cc>"]
+
+[dependencies]
+syn = "*"
+quote = "*"
+
+[lib]
+proc-macro = true
